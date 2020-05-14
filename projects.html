@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trevor's Projects</title>
+    <link rel="stylesheet" href="./dist/css/style.css">
+</head>
+<body>
+    <article>
+        <div class="row">
+            <div class="column">
+              <div class="card" onclick="window.dialog.showModal();">
+                <h3>Google Chrome Extension</h3>
+                <p>Activity Tracker</p>
+                <p>I was the team lead of 13 members in charge of following common software development principles. We built our chrome extension using React on the frontend and Firebase as our database</p>
+              </div>
+            </div>
+          </div>
+    </article>
+    <!-- The Modal -->
+    <dialog id="dialog">
+        <img src="./dist/img/chrome_ext_main_menu.png" alt="Chrome Extension Main Menu" height="250" width="250">
+      <button onclick="window.dialog.close();">close</button>
+    </dialog>
+    <script src="./dist/js/index.js"></script>
+</body>
+</html>
