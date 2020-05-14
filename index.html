@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trevor's Portfolio</title>
-    <link rel="stylesheet" href="./dist/css/style.css">
+    <link rel="stylesheet" href="./dist/css/home.css">
 </head>
 <body>
     <header>
-        <ul>
-            <li><a class="active" href="./index.html">Home</a></li>
-            <li><a href="./projects.html">Projects</a></li>
-            <li><a href="./resume.html">Resume</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div class="navbar">
+            <a href="./index.html" class="active">Home</a>
+            <a href="./projects.html">Projects</a>
+            <a href="./resume.html">Resume</a>
+            <a href="#" class="right">Contact</a>
+          </div>
     </header>
     <section>
         <div class="header">
@@ -21,12 +21,32 @@
             <p>UCSD Recent Grad</p>
         </div>
           
-        <div class="content">
-            <h1>Passions</h1>
-            <p>Web Development.</p>
-            <p>Web Security.</p>
-            <p>Web Design.</p>
-        </div>
+        <div class="row">
+            <div class="side">
+              <h2>About Me</h2>
+              <h5>Photo of me:</h5>
+              <img src="./dist/img/linkden.jpeg" alt="Chrome Extension Main Menu" height="250" width="250">
+              <p>Hey everyone! Thank you for taking to the time to checkout my site.</p>
+              <h3>My Passions</h3>
+              <p>I am willing to learn.</p>
+              <div class="fakeimg" style="height:60px;">Front End</div><br>
+              <div class="fakeimg" style="height:60px;">Back End</div><br>
+              <div class="fakeimg" style="height:60px;">Design</div>
+            </div>
+            <div class="main">
+              <h2>TITLE HEADING</h2>
+              <h5>Title description, Dec 7, 2017</h5>
+              <div class="fakeimg" style="height:200px;">Image</div>
+              <p>Some text..</p>
+              <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+              <br>
+              <h2>TITLE HEADING</h2>
+              <h5>Title description, Sep 2, 2017</h5>
+              <div class="fakeimg" style="height:200px;">Image</div>
+              <p>Some text..</p>
+              <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+          </div>
     </section>
 </body>
 </html>
