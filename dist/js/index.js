@@ -1,6 +1,5 @@
-function init() {
-}
+function init() {}
 
-window.onload = function() {
-    init();
-  };
+window.onload = function () {
+  init();
+};
